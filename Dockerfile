@@ -6,6 +6,7 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends \
        python-software-properties \
        software-properties-common \
+       openjdk-8-jdk-headless \
        openssh-server \
        python-setuptools \
        python-pip \
