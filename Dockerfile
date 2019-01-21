@@ -1,5 +1,5 @@
 FROM phusion/baseimage:0.10.2
-ENV pip_packages "ansible pyopenssl"
+ENV pip_packages "pipenv ansible pyopenssl"
 
 # Install dependencies.
 RUN apt-get update \
